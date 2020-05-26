@@ -1,0 +1,155 @@
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1620px) {
+    .top-call button {
+        font-size: 12px;
+    }
+
+    .logo-bar .nav-item a {
+        font-size: 14px;
+    }
+
+    .advantage-item {
+        margin: 7% 0 0 0;
+    }
+
+    .advantage-item .right {
+        font-size: 24px;
+        width: 90%;
+    }
+
+    .advantage-bar {
+        background-position: 50% 0%;
+    }
+
+    .project-item p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .clients-row h1 {
+        font-size: 24px;
+    }
+
+    .clients-item img {
+        max-width: 70%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-device-width: 220px) and (max-device-width: 575px) {
+
+    .container-fluid {
+        padding: 0 10px;
+    }
+
+    .pad-zero {
+        padding: 0;
+    }
+
+    .logo-bar {
+        padding: 15px 0;
+    }
+
+    .min-hide {
+        display: none;
+    }
+
+    .desctop-none {
+        display: block;
+    }
+
+    .top-phone .call {
+        font-size: 30px;
+    }
+
+    .slider-btn {
+        position: absolute;
+        bottom: 2%;
+        left: 1%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .mobile-call-btn {
+        font-size: 12px;
+    }
+
+    .mobile-btn {
+        border-color: red;
+        color: red;
+        background-color: #ff000036;
+        padding: 3px 5px !important;
+    }
+
+    .mobile-btn:hover {
+        background-color: red;
+        color: white;
+        border-color: red;
+    }
+
+    .service-row {
+        padding-top: 20px;
+    }
+
+    .service-item {
+        margin: 10px 0;
+    }
+
+    .advantage-item {
+        margin: 5% 0 0 0;
+    }
+
+    .advantage-item .left {
+        margin: 5px 12px 0 0;
+    }
+
+    .advantage-item .right {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .howwork-row {
+        padding-top: 40px;
+    }
+
+    .clients-row {
+        padding-top: 40px;
+    }
+
+    .project-item {
+        margin: 15px 0;
+    }
+
+    .clients-row h1 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    .footer-wrap {
+        flex-direction: column;
+    }
+
+    .service-footer,
+    .portfolio-footer,
+    .becose-footer,
+    .company-footer,
+    .social-footer {
+        margin-bottom: 20px;
+    }
+
+    .mobile-block {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .top-mobile-menu {
+        width: 100%;
+    }
+}

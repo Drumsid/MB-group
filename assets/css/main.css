@@ -1,0 +1,492 @@
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("");
+    src: url("../fonts/CenturyGothic.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/CenturyGothic.woff") format("woff"),
+        url("../fonts/CenturyGothic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CenturyGothic-Bold";
+    src: url("");
+    src: url("../fonts/CenturyGothic-Bold.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/CenturyGothic-Bold.woff") format("woff"),
+        url("../fonts/CenturyGothic-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CenturyGothic-BoldItalic";
+    src: url("");
+    src: url("../fonts/CenturyGothic-BoldItalic.eot#iefix")format("embedded-opentype"),
+        url("../fonts/CenturyGothic-BoldItalic.woff") format("woff"),
+        url("../fonts/CenturyGothic-BoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CenturyGothic-Italic";
+    src: url("");
+    src: url("../fonts/CenturyGothic-Italic.eot")format("embedded-opentype"),
+        url("../fonts/CenturyGothic-Italic.woff") format("woff"),
+        url("../fonts/CenturyGothic-Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.top-bar {
+    background-color: #0081BC;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 36px;
+}
+
+.top-bar a {
+    color: #fff;
+    font-family: 'CenturyGothic-Bold';
+    text-transform: uppercase;
+}
+
+.top-bar-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 152px;
+}
+
+.sub-nav {
+    justify-content: space-around;
+}
+
+.nav-item {
+    letter-spacing: 1px;
+}
+
+.top-mail a {
+    font-family: 'CenturyGothic';
+}
+
+.top-phone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-phone .call {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/* .top-phone img {
+    margin-left: 5px;
+} */
+
+.slide-top-bar {
+    padding: 0 36px;
+}
+
+.logo-bar {
+    padding: 10px 152px;
+    display: flex;
+    align-items: center;
+}
+
+.top-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-bar .nav-item a {
+    color: #4F6575;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.top-call {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-call button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding: 10px 20px;
+}
+
+.slider {
+    padding: 0 152px;
+}
+
+.slider-btn {
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.slider-btn button {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 50px;
+}
+
+.service-bar,
+.howwork-bar {
+    padding: 30px 36px 0 36px;
+}
+
+.service-plate {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-row {
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.service-row h4,
+.howwork-bar h4,
+.projects-row h4,
+.clients-row h4 {
+    text-align: center;
+    font-size: 23px;
+    color: #0099DE;
+    padding-bottom: 20px;
+}
+
+.service-row h1 {
+    text-align: center;
+    font-size: 27px;
+    color: #4F6575;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    background-color: #E4F3F6;
+    border-radius: 20px;
+    padding: 20px 20px 35px 20px;
+    display: flex;
+    margin: 30px 40px 0 0;
+}
+
+.service-item .left img {
+    padding: 10px;
+    background-color: #0099DE;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.service-item .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 4%;
+    width: 100%;
+}
+
+.service-item .right h3 {
+    color: #4F6575;
+    padding: 0 0 8px;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.service-item .right p {
+    font-weight: 300;
+}
+
+.advantage-bar {
+    margin-top: 40px;
+    background-image: url(../img/advantage-bg.jpg);
+    height: 527px;
+}
+
+.advantage-row {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 2% 0 0 8%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantage-item {
+    display: flex;
+    margin: 5% 0 0 0;
+}
+
+.advantage-item .left {
+    margin: 5px 5px 0 0;
+}
+
+.advantage-item .left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.advantage-item .right {
+    font-size: 26px;
+    color: #fff;
+    width: 80%;
+}
+
+.howwork-row h4,
+.projects-row h4,
+.clients-row h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects-bar {
+    padding: 30px 36px 0 36px;
+}
+
+.projects-row {
+    width: 100%;
+    padding: 0 152px;
+}
+
+.projects-plate {
+    display: flex;
+}
+
+.projects-plate .img-wrap img {
+    max-width: 100%;
+    height: auto;
+}
+
+.projects-plate .img-wrap p {
+    position: absolute;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    bottom: 2%;
+    right: 17%;
+    font-size: 18px;
+}
+
+.projects-plate .right .project-item img {
+    height: auto;
+    width: 100%;
+}
+
+.projects-plate .right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+    letter-spacing: 1px;
+}
+
+.project-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.project-btn .btn-outline-primary {
+    margin-right: 30px;
+}
+
+.clients-bar {
+    padding: 30px 36px 0 36px;
+}
+
+.clients-row {
+    padding: 0 152px;
+}
+
+.clients-row h1 {
+    text-align: center;
+    font-size: 27px;
+    color: #4F6575;
+    font-family: 'Roboto', sans-serif;
+    width: 48%;
+    margin: 0 auto;
+}
+
+.clients-plate {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.clients-item {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.clients-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #4F6575;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    padding: 30px 40px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h5 {
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+footer h5 {
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+footer .foot-list li,
+footer .document-list li,
+footer .contact-footer-list li {
+    padding-bottom: 7px;
+}
+
+footer .foot-list li a,
+footer .document-list li a,
+footer .contact-footer-list li a {
+    color: #fff;
+}
+
+footer .document-list li a {
+    font-weight: 500;
+}
+
+.social-footer img {
+    margin-bottom: 15px;
+}
+
+.social-footer .social-footer-list {
+    margin-top: 15px;
+}
+
+.social-footer .social-footer-list li a {
+    color: white;
+    font-size: 26px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.copyright p {
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+/* slick */
+.service-slide {
+    padding: 0 36px;
+    margin: 20px 0;
+}
+
+.service-sl-row {
+    padding: 0 152px;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slick-item {
+    background-color: #E4F3F6;
+    border-radius: 20px;
+    padding: 20px 20px 35px 20px;
+    display: flex !important;
+    margin: 0 20px;
+    align-self: stretch;
+    height: 150px;
+    cursor: pointer;
+}
+
+.slick-item:hover {
+    background-color: #c0e9f2;
+}
+
+.slick-item .left img {
+    padding: 10px;
+    background-color: #0099DE;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.slick-item .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 4%;
+    width: 100%;
+}
+
+.slick-item .right h3 {
+    color: #4F6575;
+    padding: 0 0 8px;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.slick-item .right p {
+    font-weight: 300;
+}
+
+/* slick */
+
+.form-bar {
+    padding: 0 160px;
+}
+
+.modal-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-form-wrap {
+    padding: 40px 30px;
+
+}
+
+.modal-file-label {
+    margin-bottom: 7px;
+}
+
+.modal-prgrf {
+    font-size: 14px;
+    color: grey;
+    padding: 0 4%;
+}
+
+.desctop-none {
+    display: none;
+}
+
+.service-sl-row .slick-dots {
+    right: 0;
+}
