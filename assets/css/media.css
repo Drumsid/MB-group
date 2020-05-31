@@ -50,11 +50,11 @@
     }
 
     .min-hide {
-        display: none;
+        display: none !important;
     }
 
-    .desctop-none {
-        display: block;
+    .desctop-block {
+        display: block !important;
     }
 
     .top-phone .call {
@@ -96,7 +96,7 @@
     }
 
     .advantage-item {
-        margin: 5% 0 0 0;
+        margin: 10% 0 0 0;
     }
 
     .advantage-item .left {
@@ -131,6 +131,7 @@
 
     .footer-wrap {
         flex-direction: column;
+        align-items: flex-end;
     }
 
     .service-footer,
@@ -151,5 +152,41 @@
 
     .top-mobile-menu {
         width: 100%;
+    }
+
+    .advantage-bar {
+        margin-top: 40px;
+        background-image: url(../img/preimushestva-mobile-bg.jpg);
+        height: 1000px;
+        background-position: 50%;
+        background-size: cover;
+    }
+
+    .advantage-bar h4 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        padding-top: 30px;
+    }
+
+    .advantage-row {
+        padding-top: 15px;
+    }
+
+    .projects-bar {
+        margin-top: 50px;
+    }
+
+    .clients-slider {
+        margin: 30px 0;
+    }
+
+    .mobile-foot-list {
+        text-transform: uppercase;
+        text-align: right;
+    }
+
+    .social-mobile-list {
+        text-align: right;
     }
 }

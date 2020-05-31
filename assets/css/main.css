@@ -484,9 +484,13 @@ footer .document-list li a {
 }
 
 .desctop-none {
-    display: none;
+    display: none ! important;
 }
 
 .service-sl-row .slick-dots {
     right: 0;
+}
+
+.mobile-block {
+    display: none;
 }
